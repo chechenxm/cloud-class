@@ -1,0 +1,37 @@
+.main-container{
+    width: 960px;
+}
+.main-container .course-file-wrapper{
+    flex: 1 1 auto;
+    padding-bottom: 80px;
+}
+.main-container .course-file-wrapper .caption-wrapper {
+    background-color: #f8fcf8;
+    color: #545C63;
+    margin-bottom: 20px;
+}
+.course-file-wrapper .caption-wrapper .ri-hashtag{
+    color: #6ac286;
+    font-size: 50px;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+.course-file-wrapper .file-link-wrapper{
+    padding-left: 45px;
+}
+.course-file-wrapper .file-link-wrapper .file-link{
+    padding: 5px 0;
+    font-size: 14px;
+    color: #298df8;
+}
+.course-file-wrapper .file-link-wrapper .file-link i{
+    color: #373a3c;
+}
+.course-file-wrapper .file-link-wrapper .file-link .file-name{
+    border-bottom: 1px solid #fff;
+}
+.course-file-wrapper .file-link-wrapper .file-link:hover .file-name{
+    border-bottom: 1px solid #298df8;
+}
+    
+

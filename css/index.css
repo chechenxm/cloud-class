@@ -1,0 +1,230 @@
+.container{
+	position: relative;
+	min-height: 100vh;
+	min-width: 1200px;
+	padding-bottom: 120px;
+	background-color: #fff;
+}
+
+
+.banner {
+	margin-top: 65px;
+	background-color: #56c6d4;
+	text-align: center;
+	min-width: 1200px;
+}
+
+main section .title-wrapper {
+	position: relative;
+	margin-top: 45px;
+}
+.title {
+	padding-left: 16px;
+	font-size: 26px;
+}
+.title::before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 6px;
+	width: 7px;
+	height: 26px;
+	border-radius: 3px;
+	background-color: #4baf50;
+	color: #4baf50;
+}
+
+.quality-course,.select-course{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;	
+	min-width: 1200px;
+	
+}
+
+.quality-course-list{
+	width: 1200px;
+	margin-top: 25px;
+}
+.select-course-list{
+	width: 1200px;
+	margin-top: 50px;
+}
+
+.quality-course .quality-course-container{
+	width: 1200px;
+}
+
+.course-wrapper{ 
+	display: flex;
+	flex-wrap: wrap;	
+	margin: -15px;
+}
+.course-card-wrapper{
+	width: 380px;
+	height: 221px;
+	padding: 20px 25px ;
+	 box-shadow: 0 0 4px 0 rgba(22,25,33,.06), 0 4px 8px 0 rgba(22,25,33,.08);
+	border-radius: 5px;
+	margin: 15px;
+}
+
+.course-title-wrap{
+	height: 95px;	
+}
+
+.course-title{
+	line-height: 18px;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.course-title .subject {
+	display: inline-block;
+	border: 1px solid #4baf50;
+	border-radius: 3px;
+	padding: 1.5px 3px 1.5px 3px;
+	color: #4baf50;
+	font-size: 10px;
+	font-weight: bold;
+	margin-right: 2px;
+}
+
+ .course-title-text {
+	font-weight: 600;
+	font-size: 18px;
+		
+}
+
+.course-card .courses-time {
+	display: block;
+	font-size: 14px;
+	color: #5f5f5f;
+	white-space: nowrap;
+	margin-top: 10px;
+}
+
+.course-teacher {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.teacher-wrapper {
+	display: flex;
+	align-items: center;
+	margin-right: 45px;
+}
+
+.teacher-wrapper img {
+	height: 45px;
+}
+.teacher-wrapper .teacher-info{
+	margin-left: 8px;
+}
+.teacher-wrapper .teacher-name{
+	font-size: 16px;
+}
+
+.teacher-wrapper .teacher-type{
+	font-size: .75rem;
+	color: #5f5f5f;
+}
+
+.course-sell {
+	display: flex;
+	justify-content: space-between;
+}
+
+.course-sell .course-seat {
+	font-size: 16px;
+	color: #5f5f5f;
+	white-space: nowrap;
+}
+
+.course-sell .course-price {
+	color: #e95e23;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+
+
+.select-course .title-wrapper{
+	width: 1200px;
+	margin: 45px auto 14px;
+}
+.filter-course-wrapper {
+	background-color: #f5f5f5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.filter-course {
+	width: 1200px;
+	font-size: 14px;
+}
+
+.filter-course dl {
+	display: flex;
+	padding-top: 0.2rem;
+	padding-bottom: 0.2rem;
+}
+
+.filter-course dl dt {
+	margin-right: 24px;
+	color: #4baf50;
+}
+
+.filter-course dl dd {
+	margin-right: 16px;
+}
+
+.filter-course dl dd a {
+	display: inline-block;
+	padding: 1px 0.5rem;
+}
+
+.filter-course-active {
+	color: #fff;
+	background-color: #4baf50;
+	border-radius: 16px;
+}
+
+.filter-course dl dd a:hover {
+	color: #fff;
+	background-color: #4baf50ad;
+	border-radius: 16px;
+}
+
+.more {
+	margin-top: 25px;
+	margin-bottom: 100px;
+}
+
+.more .more-course:hover{
+	color: #4baf50;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	height: 120px;
+}
+
+
+

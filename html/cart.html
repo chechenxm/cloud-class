@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/fontIcon/remixicon.css">
+    <link rel="stylesheet" href="../css/componets.css">
+    <link rel="stylesheet" href="../css/cart.css">
+    <title>购物车</title>
+</head>
+
+<body>
+    <div class="container items-block-hoz-center">
+        <div class="fixed-header">
+            <header>
+                <nav id="top">
+                    <div class="nav-container">
+                        <h1 class="logo"> <a href="index.html">在线云课堂</a> </h2>
+                            <ul class="nav-list" id="nav_list">
+                                <li><a class="nav-link" href="#top">首页</a></li>
+                                <li><a class="nav-link" href="#qulity_course">精选课程</a></li>
+                                <li><a class="nav-link" href="searching-course.html">选课中心</a></li>
+                                <li><a class="nav-link" href="learn/learning-course.html">学习中心</a></li>
+                            </ul>
+                            <div class="search">
+                                <form action="" method="">
+                                    <select name="search-list" id="">
+                                        <option value="course">课程</option>
+                                        <option value="teacher">教师</option>
+                                    </select>
+                                    <input type="text" id="search" placeholder="搜索课程/教师" />
+                                    <button type="submit"> <i class="ri-search-line"></i> </button>
+                                </form>
+                            </div>
+                            <ul class="user-info">
+                                <li>
+                                    <a href=""><i class="ri-notification-4-line"></i></a>
+                                </li>
+                                <li>
+                                    <a href="cart.html"><i class="ri-shopping-cart-line"></i></a>
+                                </li>
+                                <li><a href="profile.html">李明</a></li>
+                                <li>
+                                    <a href="profile.html"><img src="../images/user.png" alt="头像" /></a>
+                                </li>
+                            </ul>
+                    </div>
+                </nav>
+            </header>
+        </div>
+        <div class="main-container">
+            <main>
+                <div class="caption-wrapper">
+                    <div class="caption-text items-vertical-center">购物车<i class="ri-shopping-cart-fill"></i></div>
+                </div>
+                <div class="cart-course-list-wrapper">
+                    <ul>
+                        <li class="cart-course-wrapper items-vertical-center">
+                            <div class="form-wrapper items-vertical-center">
+                                <input type="checkbox" name="cart-course" id="cart_course_1">
+                                <label class="items-vertical-center" for="cart_course_1"
+                                    ></label>
+                            </div>
+                            <a href="searching-course.html" class="course-detail">
+                                <div class="course-title items-vertical-center">
+                                    <span class="sub-tag items-vertical-center">语文</span>
+                                    <span class="course-name">六年级巩固提升班</span>
+                                </div>
+                                <div class="teacher-list-wrapper items-vertical-center">
+                                    <div class="teacher-wrapper items-vertical-center">
+                                        <img src="../images/teacher -4.png" alt="头像" class="avatar">
+                                        <div class="teacher-info">
+                                            <div class="teacher-name">李笑笑</div>
+                                            <div class="teaching">授课</div>
+                                        </div>
+                                    </div>
+                                    <div class="teacher-wrapper items-vertical-center">
+                                        <img src="../images/teacher -6.png" alt="头像" class="avatar">
+                                        <div class="teacher-info">
+                                            <div class="teacher-name">江玲玲</div>
+                                            <div class="teaching">授课</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="course-illustrate">
+                                课程包括16讲
+                            </div>
+                            <div class="price">￥1246.00</div>
+                            <a href="/delete" class="delete-btn items-vertical-center" title="删除"><i
+                                    class="ri-delete-bin-6-line"></i></a>
+                        </li>
+                        <li class="cart-course-wrapper items-vertical-center">
+                            <div class="form-wrapper items-vertical-center">
+                                <input type="checkbox" name="cart-course" id="cart_course_2">
+                                <label class="items-vertical-center" for="cart_course_2" ></label>
+                            </div>
+                            <a href="searching-course.html" class="course-detail">
+                                <div class="course-title items-vertical-center">
+                                    <span class="sub-tag items-vertical-center">语文</span>
+                                    <span class="course-name">六年级巩固提升班</span>
+                                </div>
+                                <div class="teacher-list-wrapper items-vertical-center">
+                                    <div class="teacher-wrapper items-vertical-center">
+                                        <img src="../images/teacher -4.png" alt="头像" class="avatar">
+                                        <div class="teacher-info">
+                                            <div class="teacher-name">李笑笑</div>
+                                            <div class="teaching">授课</div>
+                                        </div>
+                                    </div>
+                                    <div class="teacher-wrapper items-vertical-center">
+                                        <img src="../images/teacher -6.png" alt="头像" class="avatar">
+                                        <div class="teacher-info">
+                                            <div class="teacher-name">江玲玲</div>
+                                            <div class="teaching">授课</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="course-illustrate">
+                                课程包括16讲
+                            </div>
+                            <div class="price">￥1246.00</div>
+                            <a href="/delete" class="delete-btn items-vertical-center" title="删除"><i
+                                    class="ri-delete-bin-6-line"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </main>
+
+
+        </div>
+        <div class="footer-account-wrapper items-block-hoz-center">
+            <footer class="accounting items-vertical-center">
+                <div class="form-wrapper items-vertical-center">
+                    <input type="checkbox" name="cart-course" id="cart_course_all">
+                    <label class="items-vertical-center" for="cart_course_all">全选</label>
+                </div>
+                <div class="select-count">共选择 13 门</div>
+                <div class="total-account-wrapper">
+                    <span class="total-account-text">总计金额</span>
+                    <span class="total-account">￥1246</span>
+                </div>              
+                <div class="account-btn"><a href="confirm-order.html">去结算</a></div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

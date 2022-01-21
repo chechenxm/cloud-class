@@ -1,0 +1,154 @@
+/*--checkbox 样式重写 start--*/
+input[type="checkbox"] {
+	display: block;
+	opacity: 0;
+	margin-right: 20px;
+}
+input[type="checkbox"] + label {
+	position: relative;
+	cursor: pointer;
+	flex: 1 1 auto;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	padding: 15px 0;
+}
+input[type="checkbox"] + label::before {
+	content: "";
+	position: absolute;
+	left: -34px;
+	width: 18px;
+	height: 18px;
+	border-radius: 2px;
+	border: 2.5px solid #bdbdbd;
+}
+input[type="checkbox"] + label::after {
+	content: "";
+	position: absolute;
+	top: 8px;
+	left: -26px;
+	width: 5px;
+	height: 10px;
+	transform: rotate(45deg);
+}
+input[type="checkbox"]:checked + label::before {
+	border: 2.5px solid #4baf50;
+	background-color: #fff;
+}
+input[type="checkbox"]:checked + label::after {
+	background-color: rgba(0, 0, 0, 0);
+	border-right: 2.5px solid #4baf50;
+	border-bottom: 2.5px solid #4baf50;
+}
+
+input[type="checkbox"]:hover + label::before {
+	border: 2.5px solid #4baf50;
+}
+/*--checkbox 样式重写 end--*/
+
+.container {
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	padding-bottom: 115px;
+}
+.main-container {
+	margin-top: 85px;
+	min-width: 1200px;
+}
+.main-container .caption-wrapper {
+	margin-top: 5px;
+	margin-bottom: 25px;
+}
+.caption-wrapper .caption-text {
+	font-size: 26px;
+	color: #545c63;
+}
+.caption-wrapper .caption-text i {
+	margin-left: 5px;
+}
+.main-container .cart-course-wrapper {
+	padding: 15px 25px;
+	background-color: #fff;
+	margin-bottom: 25px;
+}
+.form-wrapper {
+	margin-right: 50px;
+}
+.cart-course-wrapper .course-detail {
+	width: 400px;
+	margin-right: 80px;
+}
+.cart-course-wrapper .course-detail .course-title {
+	width: 100%;
+	margin-bottom: 10px;
+}
+.cart-course-wrapper .course-detail .course-title .sub-tag {
+	padding: 0 3px;
+	margin-right: 10px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #4baf50;
+	border: 2px solid #4baf50;
+}
+.cart-course-wrapper .course-detail .course-title .course-name {
+	font-size: 17px;
+}
+.cart-course-wrapper .course-detail .teacher-wrapper {
+	margin-right: 20px;
+}
+.cart-course-wrapper .course-detail .teacher-wrapper .avatar {
+	width: 50px;
+	margin-right: 7px;
+}
+.cart-course-wrapper .course-detail .teacher-wrapper .teacher-info {
+	font-size: 14px;
+}
+.cart-course-wrapper .course-detail .teacher-wrapper .teacher-info .teaching {
+	color: #7d7d7d;
+	margin-top: 5px;
+}
+.cart-course-wrapper .course-illustrate {
+	width: 100px;
+	margin-right: 160px;
+}
+.cart-course-wrapper .price {
+	color: #e95e23;
+	font-size: 20px;
+	font-weight: bold;
+}
+.cart-course-wrapper .delete-btn {
+	margin-left: auto;
+	margin-right: 10px;
+	font-size: 20px;
+}
+.cart-course-wrapper .delete-btn:hover {
+	color: #e34c26;
+}
+.footer-account-wrapper {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 75px;
+	box-shadow: 0 1px 3px rgb(18 18 18 / 10%);
+	background-color: #fff;
+}
+.footer-account-wrapper .accounting {
+	width: 1200px;
+	padding: 15px 25px;
+	height: 100%;
+	color: #24292E;
+}
+.accounting .form-wrapper{
+    margin-right: auto;
+}
+.accounting  .select-count{
+	margin-right: 20px;
+}
+.accounting  .total-account-wrapper{
+	margin-right: 30px;
+}
+.accounting  .total-account-wrapper .total-account{
+	font-size: 22px;
+	color: #e95e23;
+}

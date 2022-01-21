@@ -1,0 +1,65 @@
+
+.main-container .course-lists-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+.main-container .course-lists-wrapper .course-wrapper {
+	width: 800px;
+	padding: 20px 25px;
+	border-radius: 12px;
+	box-shadow: 0 4px 8px 0 rgba(28, 32, 33, 0.1);
+	margin-top: 30px;
+    margin-bottom: 10px;
+}
+.main-container .course-lists-wrapper .course-wrapper:hover{
+    box-shadow: 0 6px 10px 0 rgba(28, 32, 33, 0.2);
+}
+.course-wrapper .caption-wrapper {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.course-wrapper .caption-wrapper .subject {
+	padding: 0 2px;
+	border: 2px solid #4baf50;
+	margin-right: 10px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #4baf50;
+}
+.course-wrapper .caption-wrapper .course-name {
+	font-size: 18px;
+	font-weight: bold;
+}
+.course-wrapper .meta-data {
+	margin-top: 10px;
+	color: #545c63;
+	font-size: 14px;
+}
+.course-wrapper .meta-data .teacher {
+	margin-right: auto;
+}
+.course-wrapper .course-progress {
+	margin-top: 20px;
+	font-size: 14px;
+}
+.course-wrapper .course-progress .lesson-name:hover {
+	color: #00c758;
+}
+.course-wrapper .course-progress .lesson-name .ri-checkbox-blank-circle-fill {
+	color: #00c758;
+	font-size: 10px;
+	margin-right: 5px;
+}
+.course-wrapper .course-progress .to-course-btn {
+	width: 86px;
+    padding: 4px 15px;
+	border-radius: 15px;
+	margin-left: auto;
+	color: #fff;
+	background-color: #4baf50;
+}
+.course-wrapper .course-progress .to-course-btn:hover {
+	background-color: #00c758;
+}

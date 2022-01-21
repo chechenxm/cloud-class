@@ -1,0 +1,87 @@
+.main-container {
+	width: 900px;
+}
+.main-container .work-tabs {
+	display: flex;
+	align-items: flex-end;
+	padding-left: 25px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.work-tabs .tab-link {
+	display: block;
+	padding-bottom: 7px;
+	border-bottom: 3px solid #1fad4e;
+	margin-bottom: -1px;
+	font-weight: bold;
+}
+.main-container .exam-lists-wrapper .section-exams-wrapper {
+	width: 880px;
+	border-radius: 10px;
+	box-shadow: 0 6px 10px 0px rgba(28, 31, 33, 0.1);
+	margin-top: 40px;
+}
+.exam-lists-wrapper .section-exams-wrapper .section-name {
+	padding-left: 25px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-weight: bold;
+	background-color: #fdfdfd;
+}
+.exam-lists-wrapper .section-exams-wrapper .section-exam-list {
+	padding-bottom: 5px;
+	font-size: 14px;
+}
+.exam-lists-wrapper .section-exams-wrapper .section-exam-list .exam-wrapper {
+	width: 100%;
+	padding: 10px 35px;
+	margin-bottom: 10px;
+}
+.exam-lists-wrapper .section-exams-wrapper .section-exam-list .unfinish-exam:hover {
+	color: #e34c26;
+	background-color: #f8fcf8;
+}
+.exam-lists-wrapper .section-exams-wrapper .section-exam-list .finished-exam:hover {
+	color: #00c758;
+	background-color: #f8fcf8;
+}
+.unfinish-exam .ri-checkbox-blank-circle-fill {
+	color: #e34c26;
+}
+.finished-exam .ri-checkbox-blank-circle-fill {
+	color: #00c758;
+}
+.exam-lists-wrapper .section-exams-wrapper .section-exam-list .exam-wrapper .exam-name {
+	margin-left: 10px;
+}
+.exam-lists-wrapper .section-exams-wrapper .section-exam-list .exam-wrapper .exam-grade {
+	margin-right: 200px;
+	margin-left: auto;
+}
+.exam-lists-wrapper .section-exams-wrapper .section-exam-list .exam-wrapper .to-exam-link {
+	width: 66px;
+}
+.exam-lists-wrapper .section-exams-wrapper .section-exam-list .unfinish-exam .to-exam-link {
+	padding-top: 3px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 15px;
+	background-color: #e34c26;
+	font-size: 12px;
+	color: #fff;
+}
+.exam-lists-wrapper .section-exams-wrapper .section-exam-list .finished-exam .to-exam-link {
+	color: #00c758;
+	font-size: 14px;
+}
+
+.finished-exam .ri-arrow-right-s-line {
+	background-color: #00c758;
+	color: #fff;
+	border-radius: 50%;
+}
+.finished-exam .to-exam-link i {
+	font-size: 14px;
+	margin-left: 5px;
+	margin-right: 0;
+}

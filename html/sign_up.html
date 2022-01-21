@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/fontIcon/remixicon.css">
+    <link rel="stylesheet" href="../css/componets.css">
+    <link rel="stylesheet" href="../css/sign_up.css">
+    <title>注册</title>
+</head>
+
+<body>
+    <div class="fixed-header">
+        <header>
+            <nav id="top">
+                <div class="nav-container">
+                    <h1 class="logo"> <a href="index.html">在线云课堂</a> </h2>
+                        <ul class="nav-list" id="nav_list">
+                            <li><a class="nav-link" href="#top">首页</a></li>
+                            <li><a class="nav-link" href="#qulity_course">精选课程</a></li>
+                            <li><a class="nav-link" href="#select_course">选课中心</a></li>
+                            <li><a class="nav-link" href="#learning">学习中心</a></li>
+                        </ul>
+                        <div class="search">
+                            <form action="" method="">
+                                <select name="search-list" id="">
+                                    <option value="course">课程</option>
+                                    <option value="teacher">教师</option>
+                                </select>
+                                <input type="text" id="search" placeholder="搜索课程/教师" />
+                                <button type="submit"> <i class="ri-search-line"></i> </button>
+                            </form>
+                        </div>
+                        <ul class="user-info">
+                            <li>
+                                <a href=""><i class="ri-notification-4-line"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="ri-shopping-cart-line"></i></a>
+                            </li>
+                            <li><a href="">李明</a></li>
+                            <li>
+                                <a href=""><img src="../images/user.png" alt="头像" /></a>
+                            </li>
+                        </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <div class="main-container items-block-hoz-center">
+        <main class="profile-edit-wrapper">
+            <form action="/profile_edit" method="post">
+                <div class="basic-info">
+                    <div class="caption-text">
+                        基本信息
+                    </div>
+                    <div class="form-row profile-photo">
+                        <div class="form-row-label">
+                            头像
+                        </div>
+                        <div class="form-field photo-wrapper">
+                            <img src="../images/user.png" alt="头像" class="photo">
+                            <img src="../images/user.png" alt="大头像" class="large-photo">
+                            <label class="upload-photo"> 更换头像
+                                <input type="file" name="" id="thumb" accept="image/*">
+                            </label>
+
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-row-label">
+                            <label for="">名字</label>
+                        </div>
+                        <div class="form-field">
+                            <input type="text" name="user_name" id="" value="方小块">
+                        </div>
+                    </div>
+
+                    <div class="form-row edit-gender-wrapper">
+                        <div class="form-row-label">
+                            性别
+                        </div>
+                        <div class="form-field">
+                            <label for="male" class="gender"><input type="radio" name="gender" id="male" value="1">男
+                            </label>
+                            <label for="female" class="gender"><input type="radio" name="gender" id="female"
+                                    value="2">女</label>
+                            <label for="secret" class="gender"><input type="radio" name="gender" id="secret"
+                                    value="3">保密</label>
+                        </div>
+                    </div>
+                    <div class="form-row edit-grade-wrapper">
+                        <div class="form-row-label">
+                            <label for="">年级</label>
+                        </div>
+                        <div class="form-field grade-list">
+                            <select name="grade" id="grade">
+                                <option value="1">1年级</option>
+                                <option value="2">2年级</option>
+                                <option value="3">3年级</option>
+                                <option value="4">4年级</option>
+                                <option value="5">5年级</option>
+                                <option value="6">6年级</option>
+                                <option value="7">初一</option>
+                                <option value="8">初二</option>
+                                <option value="9">初三</option>
+                                <option value="10">高一</option>
+                                <option value="11">高二</option>
+                                <option value="12">高三</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="secure-info">
+                    <div class="caption-text">
+                        安全设置
+                    </div>
+                    <div class="form-row edit-pwd-wrapper">
+                        <div class="form-row-label">
+                            <label for="">密码</label>
+                        </div>
+                        <div class="form-field">
+                            <a href="profile-pwd.html" class="edit-pwd-btn items-line-center">修改密码</a>
+                        </div>
+                    </div>
+                    <div class="form-row edit-email-wrapper">
+                        <div class="form-row-label">
+                            <label for="">邮箱</label>
+                        </div>
+                        <div class="form-field">
+                            <input type="email" name="" id="" value="mysimple@sina.com" required style="">
+                        </div>
+                    </div>
+                    <div class="form-row edit-phone-wrapper">
+                        <div class="form-row-label">
+                            <label for="">手机</label>
+                        </div>
+                        <div class="form-field">
+                            <input type="tel" name="phone" id="phone" required pattern="[1][0-9]{10}" value="1377654345"
+                                style="">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="form-submit-wrapper">
+                    <input type="submit" value="保存设置" class="items-line-center">
+                </div>
+            </form>
+        </main>
+    </div>
+</body>
+
+</html>

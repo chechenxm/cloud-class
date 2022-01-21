@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/fontIcon/remixicon.css">
+    <link rel="stylesheet" href="../css/componets.css">
+    <link rel="stylesheet" href="../css/profile-pwd.css">
+    <title>个人信息</title>
+</head>
+
+<body>
+    <div class="fixed-header">
+        <header>
+            <nav id="top">
+                <div class="nav-container">
+                    <h1 class="logo"> <a href="index.html">在线云课堂</a> </h2>
+                        <ul class="nav-list" id="nav_list">
+                            <li><a class="nav-link" href="#top">首页</a></li>
+                            <li><a class="nav-link" href="#qulity_course">精选课程</a></li>
+                            <li><a class="nav-link" href="#select_course">选课中心</a></li>
+                            <li><a class="nav-link" href="#learning">学习中心</a></li>
+                        </ul>
+                        <div class="search">
+                            <form action="" method="">
+                                <select name="search-list" id="">
+                                    <option value="course">课程</option>
+                                    <option value="teacher">教师</option>
+                                </select>
+                                <input type="text" id="search" placeholder="搜索课程/教师" />
+                                <button type="submit"> <i class="ri-search-line"></i> </button>
+                            </form>
+                        </div>
+                        <ul class="user-info">
+                            <li>
+                                <a href=""><i class="ri-notification-4-line"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="ri-shopping-cart-line"></i></a>
+                            </li>
+                            <li><a href="profile.html">李明</a></li>
+                            <li>
+                                <a href="profile.html"><img src="../images/user.png" alt="头像" /></a>
+                            </li>
+                        </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <div class="main-container items-block-hoz-center">
+        <main class="pwd-edit-wrapper">
+            <form action="/pwd_edit" method="post">
+                <div class="pwd-info">
+                    <div class="caption-text">
+                        更改密码
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-row-label">
+                            <label for="">旧密码</label>
+                        </div>
+                        <div class="form-field">
+                            <input type="password" name="old_password"  id="old_password" value="" required minlength="8" placeholder="至少8个字母或数字字符">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-row-label">
+                            <label for="">新密码</label>
+                        </div>
+                        <div class="form-field">
+                            <input type="password" name="new_password"  id="new_password" value="" required minlength="8" placeholder="至少8个字母或数字字符">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-row-label">
+                            <label for="">再次确认</label>
+                        </div>
+                        <div class="form-field">
+                            <input type="password" name="new_password_2"  id="new_password_2" value="" required minlength="8" placeholder="至少8个字母或数字字符">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-submit-wrapper">
+                    <input type="submit" value="更改密码并重新登录" class="items-line-center">
+                </div>
+            </form>
+        </main>
+    </div>
+</body>
+
+</html>

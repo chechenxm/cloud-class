@@ -1,0 +1,55 @@
+.main-container{
+    width: 960px;
+    padding: 20px 0 100px;
+}
+.main-container .caption-wrapper{
+    font-size: 14px;
+}
+.caption-wrapper .meta-data{
+    font-weight: bold;
+    margin-right: auto;
+}
+.caption-wrapper .cur-course-wrapper .cur-course-name{
+    font-weight: bold;
+    color: #42c02e;
+    margin-left: 15px;
+}
+.main-container .course-list-wrapper{
+    padding-top: 15px;
+    margin-top: 10px;
+    border: 1px solid #e5e5e5;
+}
+.course-list-wrapper .course-wrapper{
+    height: 50px;
+    padding:12px 30px;
+    margin-bottom: 15px;
+}
+.course-list-wrapper .course-wrapper:hover{
+    background-color: #f0fcf0;
+}
+.course-wrapper .course-name i{
+    font-size: 22px;
+    margin-right: 5px;
+    color: #545C63;
+}
+.course-list-wrapper .finished-course .course-name .ri-checkbox-circle-fill{
+    color: #42c02e;
+}
+
+.course-list-wrapper .learning-course{
+    background-color: #f0fcf0;
+    color: #4BAF50;
+}
+.course-list-wrapper .learning-course i{
+    color: #42c02e;
+}
+.course-list-wrapper .learning-course .to-video-btn{
+    padding: 5px 15px;
+    border-radius: 15px;
+    margin-left: auto;
+    background-color: #4BAF50;
+    color: #fff;
+}
+.learning-course .to-video-btn:hover{
+    background-color: #42c02e;
+}

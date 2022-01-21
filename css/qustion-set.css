@@ -1,0 +1,57 @@
+.main-container .practice-list-wrapper .practice-wrapper{
+    display: block;
+    width: 800px;
+    padding:15px 10px;
+    border-radius: 12px;
+    box-shadow: 0 0 4px 0 rgb(22 25 33 / 6%), 0 4px 8px 0 rgb(22 25 33 / 8%);
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.main-container .practice-list-wrapper .practice-wrapper:hover{
+    box-shadow: 0 0 5px 0 rgb(22 25 33 / 10%), 0 5px 10px 0 rgb(22 25 33 / 15%);
+}
+.practice-wrapper .caption-wrapper{
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 20px;
+}
+.practice-wrapper .caption-wrapper .course-name:hover,
+.practice-wrapper .caption-wrapper .test-name:hover{
+    color: #298DF8;
+} 
+.practice-wrapper .caption-wrapper .tool-del{
+    margin-left: auto;
+    font-size: 18px;
+    font-weight: normal;
+    color: #3d473e;
+}
+.practice-wrapper .caption-wrapper .tool-del:hover{
+    color: #E34C26;
+}
+.practice-wrapper .practice-detail{
+    width: 100%;
+    padding: 0 25px;
+}
+ .practice-wrapper .practice-detail .content{
+    margin-bottom: 15px;
+}
+ .practice-wrapper .practice-detail .choise-items .choise-detail{
+     margin-bottom: 10px;
+ }
+ .practice-wrapper .practice-anwser{
+    padding: 0 25px;
+ }
+ .practice-wrapper .practice-anwser .show-tools{
+     margin-top: 15px;
+     font-size: 14px;
+     color: #298DF8;
+     cursor: pointer;
+ }
+ .practice-wrapper .practice-anwser .anwser-content{
+     font-size: 14px;
+     color: #3d473e;
+     margin-top: 5px;
+ }
